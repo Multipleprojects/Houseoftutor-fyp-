@@ -17,9 +17,9 @@ const importCourses = async (req, res) => {
         const fileColumns = Object.keys(response[0]);
         const isValidFile = expectedFields.every(field => fileColumns.includes(field));
 
-        if (!isValidFile) {
-            errorMessages.push("Uploaded file columns do not match the schema.");
-        } else {
+        // if (!isValidFile) {
+        //     errorMessages.push("Uploaded file columns do not match the schema.");
+        // } else {
             for (let row of response) {
                 if (!row.reg_number || !row.course_title || !row.grade) {
                     errorMessages.push(`Missing required fields for reg_number: ${row.reg_number}. Please ensure reg_number, course_title, and grade are provided.`);
@@ -80,7 +80,7 @@ const importCourses = async (req, res) => {
                         });
                     }
                 }
-            }
+            
         }
 
         if (userData.length > 0) {
