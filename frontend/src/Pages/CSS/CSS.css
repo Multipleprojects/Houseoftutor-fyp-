@@ -1,0 +1,104 @@
+.login_center{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: auto;
+}
+.form-outline input[type="text"],
+.form-outline input[type="password"] {
+    border-color: rgb(40, 134, 244);
+}
+.space-dropdo{
+  margin-left: 1rem;
+  width: 15rem;
+}
+/* Define custom table color class */
+.table-custom-color {
+  background-color: rgb(40, 134, 244);
+  color: white; /* Adjust text color as needed for better contrast */
+}
+.search_input{
+  width: 100%;
+}
+.bord{
+    border-style: dashed solid;
+    border-color: rgb(40, 134, 244);
+padding: 5rem;
+width: 30%;
+border-radius: 0.5rem;
+}
+.float{
+    position: relative;
+    left: 10.6%;
+}
+.width{
+    width: 30%;
+}
+
+.input_border{
+  border: 1px solid rgb(40, 134, 244);
+  outline: none;
+}
+.course_back{
+  background-color: rgb(40, 134, 244);
+  padding: 0%;
+  margin: 0%;
+  height: 100vh;
+}
+.schedule_center{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.cursor{
+    cursor: pointer;
+}
+.course_bg{
+  background-color: rgb(40, 134, 244);
+}
+.btn-margin{
+  margin-right: 8rem;
+ }
+.scrollable-table {
+    max-height: 585px; /* Set your desired max height */
+    overflow-y: scroll;
+  }
+.scrollable-course {
+  max-height: 625px; /* Set your desired max height */
+  overflow-y: scroll;
+}
+  .scrollable-schedule {
+    max-height: 210px; /* Set your desired max height */
+    overflow-y: scroll;
+  }
+.schedule_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.schedule_fl{
+  margin-left: 1rem;
+}
+  .scrollable {
+    overflow: auto;
+    height: 360px; /* Adjust height as needed */
+}
+.admin_file{
+  margin-top:4rem;
+  margin-bottom:2rem;
+}
+/* Hide scrollbar but allow scrolling */
+.scrollable::-webkit-scrollbar {
+    display: none;
+}
+.scrollable_search_tutor {
+    overflow: auto;
+    height: 620px; /* Adjust height as needed */
+}
+.space-dropdown{
+  padding-right: 10rem;
+}
+

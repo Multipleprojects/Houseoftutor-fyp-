@@ -1,0 +1,221 @@
+/* Default styles */
+@media only screen and (max-width: 450px) and (min-width:300px){
+.file_btn{
+  margin-left: -2.8rem;
+}
+.btn-margin{
+  margin-right: 0%;
+ }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+
+  .bord{
+width: 100%;
+margin: 0px;
+}
+.btn-margin{
+  margin-right: 0rem;
+ }
+.img_height{
+  height: 10rem;
+}
+.scrollable-schedule {
+  max-height:280px; /* Set your desired max height */
+  overflow-y: scroll;
+}
+.schedule_center{
+  display: flex;
+ flex-direction: column;
+}
+.res_height{
+  height: 100%;
+}
+.img_height{
+  height: 7rem;
+}
+.scrollbar_tutorschedule{
+  max-height: 700px; /* Set your desired max height */
+  overflow-y: scroll; 
+}
+.flex-wrap-buttons {
+display: flex;
+display: block;
+flex: row;
+}
+.scrollable-tutorschedule::-webkit-scrollbar {
+  width: 0; 
+  height: 0;  
+display: none;
+} 
+.scrollable-course{
+  max-height: 700px; /* Set your desired max height */
+  overflow-y: scroll;
+}
+.scrollable-table {
+  max-height: 490px; /* Set your desired max height */
+  overflow-y: scroll;
+}
+.widthh{
+  width:100%;
+}
+.search{
+  text-align: center;
+  padding-top: 1rem;
+}
+.schedule_flex{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+.scrollable_tutorreq{
+  overflow: auto;
+  height: 570px;
+}
+
+.admin_file{
+  margin-top:0rem;
+  margin-bottom:2rem;
+}
+
+.margin_std{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+}
+  /* Medium devices (tablets, 768px and up) */
+  @media only screen and (max-width: 768px)  {
+    .bord{
+        width: 100%;
+  }
+  .scrollable-table {
+    max-height: 490px; /* Set your desired max height */
+    overflow-y: scroll;
+  }
+  .img_height{
+height: 7rem;
+  }
+  .search_input{
+    width: 100%;
+  }
+.admin_file{
+  margin-top:0rem;
+  margin-bottom:2rem;
+}
+  .scrollable-schedule {
+    max-height:300px; /* Set your desired max height */
+    overflow-y: scroll;
+  }
+  .scrollable-course{
+    max-height: 540px; /* Set your desired max height */
+    overflow-y: scroll;
+  }
+  
+.scrollable_tutorreq{
+  overflow: auto;
+  height: 570px;
+}
+  .schedule_center{
+    display: flex;
+   flex-direction: column;
+  padding: 0%;
+  margin: 0%; 
+  }
+  .scrollbar_tutorschedule{
+    max-height: 700px; /* Set your desired max height */
+    overflow-y: scroll; 
+  }
+  .scrollable-tutorschedule::-webkit-scrollbar {
+    width: 0; 
+    height: 0;  
+  }
+  .img_height{
+  height: 10rem;
+}
+  .float{
+    position: relative;
+    left: 37%;
+}
+.width{
+  width: 80%;
+}
+.schedule_fl{
+  margin-bottom: 1rem;
+}
+.space-dropdo{
+  width: 77%;
+}
+.scrollable-dashboard {
+  max-height: 700px; /* Set your desired max height */
+  overflow-y: scroll;
+}
+.btn-margin{
+  margin-right: 0%;
+ }
+  }  
+  /* Large devices (desktops, 992px and up) */
+  @media only screen and (max-width: 992px) and (min-width:768px) {
+    .bord{
+  width: 50%;
+  }
+ .btn-margin{
+  margin-right: 0%;
+ }
+.img_height{
+  height: 10rem;
+}
+.scrollable-schedule {
+  max-height:300px; /* Set your desired max height */
+  overflow-y: scroll;
+}
+.img_height{
+  height: 10rem;
+}
+.scrollable_tutorreq{
+  overflow: auto;
+  height: 570px;
+}
+.scrollbar_tutorschedule{
+  max-height: 700px; /* Set your desired max height */
+  overflow-y: scroll; 
+}
+.scrollable-tutorschedule::-webkit-scrollbar {
+  width: 0; 
+  height: 0;  
+} 
+.scrollable-course{
+  max-height: 540px; /* Set your desired max height */
+  overflow-y: scroll;
+}
+  .float{
+    position: relative;
+    left: 17%;
+}
+
+.scrollable-table {
+  max-height: 510px; /* Set your desired max height */
+  overflow-y: scroll;
+}
+.width{
+  width: 50%;
+}
+    }
+    .scrollable-dashboard {
+      max-height: 700px; /* Set your desired max height */
+      overflow-y: scroll;
+    } 
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px ) and (min-width:992px) {
+    .bord{
+
+  width: 50%;
+  }
+  .float{
+    position: relative;
+    left: 19%;
+}
+
+.width{
+  width: 60%;
+}
+  }
